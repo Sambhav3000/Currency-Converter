@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(87, 80, 72);
+}
+.container{
+    background-color: rgb(187, 168, 142);
+    border: 1px solid rgb(130, 139, 146);
+    box-shadow: 10px 10px 22px 1px rgba(0, 0, 0, 0.5);
+    width: 70vh;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(198, 89, 67);
+    line-height: 50px;
+    background-color: rgb(228, 213, 194);
+    border-radius:0.4rem ;
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+form input,select,button{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+form button, select{
+    cursor: pointer;
+    
+}
+
+.amountcontainer input{
+    border: 1px solid rgb(201, 187, 187);
+    padding-left: 5px;
+    font-size: large;
+    background-color: rgb(228, 213, 194);
+}
+.amountcontainer p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.25rem;
+font-weight: bolder;
+color: rgb(117, 33, 18);
+margin-bottom: 0.4rem;
+}
+
+.fromandto{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fromcontainer p, .tocontainer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: rgb(117, 33, 18);
+    margin-bottom: 0.4rem;
+}
+.forfrom, .forto{
+    display: flex;
+    width: 30vh;
+    height: 2.5rem;
+    background-color: white;
+    border: 1px solid rgb(189, 180, 180);
+    /* border-radius: 5px; */
+    align-items: center;
+        
+}
+ /* .forfrom select:focus, .forto select:focus{
+
+    border: 1px solid rgb(32, 2, 2)
+} */
+  
+.forfrom select, .forto select{
+    height: 2.5rem;
+    /* border-radius: 5px; */
+    background-color: rgb(228, 213, 194);
+}
+.forfrom img, .forto img{
+    height: inherit;
+    background-color: rgb(228, 213, 194);
+    
+    
+}
+.reverse{
+    margin-top: 2rem;
+    border: 1px solid rgb(189, 180, 180);
+    border-radius: 5px;
+    background-color: rgb(178, 192, 203);
+    width: 5vh;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    &:hover{
+        background-color: rgb(117, 127, 136);
+    }
+}
+.reverse img{
+    width: 2vh;
+}
+
+#output{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(163, 37, 15);
+    margin-bottom: 0.8rem;
+}
+#rate{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(124, 53, 40);
+    
+}
+#btn{
+    margin-top: 1rem;
+    height: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    color: rgb(81, 18, 6);
+    font-weight: bold;
+    background-color: rgb(226, 167, 123);
+    &:hover{
+        background-color: rgb(162, 115, 79);
+    }
+}
+.mssg{
+    background-color: rgb(228, 213, 194);
+    padding: 10px;
+    border-radius: 0.4rem;
+}
